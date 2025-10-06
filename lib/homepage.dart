@@ -35,7 +35,8 @@ class _HomepageState extends State<Homepage> {
                 var response = await get(
                   Uri.parse("https://jsonplaceholder.typicode.com/posts"),
 
-                  // Les headers précisent l’identité de l’application et le format de réponse attendu, assurant une bonne communication avec
+                  // Les headers précisent l’identité de l’application et le format de réponse attendu,
+                  // assurant une bonne communication avec
                   headers: {
                     "User-Agent": "FlutterApp/1.0",
                     "Accept": "application/json",
@@ -94,7 +95,8 @@ class _HomepageState extends State<Homepage> {
 //     var response = await get(
 //       Uri.parse("https://jsonplaceholder.typicode.com/posts"),
 
-//       // Les headers précisent l’identité de l’application et le format de réponse attendu, assurant une bonne communication avec le serveur.
+//       // Les headers précisent l’identité de l’application et le format de réponse attendu,
+//       // assurant une bonne communication avec le serveur.
 //       headers: {"User-Agent": "FlutterApp/1.0", "Accept": "application/json"},
 //     );
 
@@ -156,7 +158,8 @@ class _HomepageState extends State<Homepage> {
 //     var response = await get(
 //       Uri.parse("https://jsonplaceholder.typicode.com/posts"),
 
-//       // Les headers précisent l’identité de l’application et le format de réponse attendu, assurant une bonne communication avec le serveur.
+//       // Les headers précisent l’identité de l’application et le format de réponse attendu,
+//       // assurant une bonne communication avec le serveur.
 //       headers: {"User-Agent": "FlutterApp/1.0", "Accept": "application/json"},
 //     );
 
